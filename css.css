@@ -71,6 +71,38 @@ nav{
     li{
        margin-left: 0px;
     }
+    nav {
+        background-color: #62825D;
+        flex-direction: column;
+    }
+    .navegador{
+        margin: 0px 0px;
+    }
+    .navbutton{
+        display: inline-block;
+    }
+    .none{
+        display: none;
+    }
+    .img1{
+        display: flex;
+        justify-content: left;
+        margin-bottom: 20px;
+        width: 420px;
+    }
+    .img2{
+        display: none;
+    }
+    nav{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    .iframe{
+        margin-left: -30px;
+        width: 500px;
+    }
 }
 .armas{
     text-align: center;  
@@ -136,39 +168,6 @@ li{
 .ultimo{
     color: rgb(80, 71, 55);
     padding-left: 500px;
-} @media (max-width: 600px) {
-    nav {
-        background-color: #62825D;
-        flex-direction: column;
-    }
-    .navegador{
-        margin: 0px 0px;
-    }
-    .navbutton{
-        display: inline-block;
-    }
-    .none{
-        display: none;
-    }
-    .img1{
-        display: flex;
-        justify-content: left;
-        margin-bottom: 20px;
-        width: 420px;
-    }
-    .img2{
-        display: none;
-    }
-    nav{
-        text-align: center;
-    }
-    h2{
-        text-align: center;
-    }
-    .iframe{
-        margin-left: -30px;
-        width: 500px;
-    }
 }
 .titulo{
 margin-left: 420px;
