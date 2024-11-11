@@ -1,6 +1,3 @@
-*{
-    cursor: auto;
-}
 body{
     background: linear-gradient(to bottom, #C2FFC7, #9EDF9C, #62825D, #526E48);
 
@@ -16,10 +13,10 @@ body{
      font-size: 18px;
 }
 .navegador:hover{
-    background-color: #6A1E55;
+    background-color: #9EDF9C;
 }
 button{
-    background-color: #6A1E55;
+    background-color: #9EDF9C;
     color: #F6FCDF;
 }
 button:hover{
@@ -41,18 +38,17 @@ nav{
     
  }
 .navbutton{
-    color: #6A1E55;
+    color: #000000;
     display: inline-block;
-    background-color: #A64D79;
+    background-color: #9EDF9C;
     padding: 10px;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid #62825D;
     display: none;
     text-decoration: none;
     border-radius: 20px;
  }
  @media (max-width: 600px) {
     nav {
-        background-color: #A64D79;
         flex-direction: column;
     }
     .navegador{
@@ -142,7 +138,7 @@ li{
     padding-left: 500px;
 } @media (max-width: 600px) {
     nav {
-        background-color: #a8d5f5;
+        background-color: #62825D;
         flex-direction: column;
     }
     .navegador{
@@ -154,14 +150,24 @@ li{
     .none{
         display: none;
     }
-    img{
+    .img1{
+        display: flex;
+        justify-content: left;
+        margin-bottom: 20px;
+        width: 420px;
+    }
+    .img2{
         display: none;
     }
     nav{
         text-align: center;
     }
     h2{
-        text-align: left;
+        text-align: center;
+    }
+    .iframe{
+        margin-left: -30px;
+        width: 500px;
     }
 }
 .titulo{
@@ -177,8 +183,11 @@ margin-left: 420px;
     padding-left: 20px;
     font-family: monospace;
 }
-.img{
-    margin-left: 80px;
+.img1{
+    margin-left: 70px;
+}
+.img2{
+    margin-left: 130px;
 }
 .iframe{
     padding-left: 50px;
@@ -189,4 +198,7 @@ margin-left: 420px;
     padding-left: 20px;
     font-size: 20px;
     color: #9EDF9C;
+}
+.horarios{
+    color:#C2FFC7;
 }
